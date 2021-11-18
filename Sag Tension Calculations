@@ -1,0 +1,36 @@
+ #Tenson(T):To calculate tension T at any point P(x,y)on the wire , we use two equations  i.e.,
+ 
+ T cos θ = To = wc                     ---------  Equation 1
+ T sin θ = wc                          ---------  Equation 2
+                  squaring and adding equation 1 and 2
+ T^2= w^2(s^2+c^2)
+ T^2=w^2(c^2*sinh^2(x/c)+c^2)          --------   s=csinh(x/c)[From calculations of catenary curve]
+ T^2=w^2c^2(1+sinh^2(x/c))
+ T^2=w^2*c^2cosh(x/c)
+ T=wy                                  --------   Equation 3
+ where y=c*cosh(x/c)                   -------    y= Y-co-ordinate of the point       
+ 
+ #Sag(d):The sad at any point P(x,y) is the vertical distance  between point P and the lowest pint H.To  calculate the sag we use the equations i.e.,
+
+y = c + x^2/(6c^2)                    -------   Equation 4
+ y-c = x^2/(2c) = d
+  Note: sag is maximum at x=l/2
+ d=l^2/(8c)
+ d=wl^2/(8T)                           --------  (T=wc)
+ d=wl^2/(8fA)                          --------  (T=fA)
+ d=l^2*δ/(8f)                          --------   Equation 5
+ f= stress corrsponding to tension T
+ A= area of cross section of the conductor
+ δ=w/A constant.δ is the density of the conductor material and is ,therefore,constant for a particular material.
+ 
+ #Length L of the Conductor:Using  Equation :
+  s=x+x^3/(6*c^2)
+  --- if s= L/2  and x=l/2
+  then,
+  L/2  =l/2 + l^3/(48*c^2)
+  L = l + l^3*δ^2/(24*f^2)            --------   (c=f/δ)    Equation 6
+  
+  
+  
+ 
+ 
